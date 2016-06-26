@@ -1,0 +1,39 @@
+# Packages #
+############
+# Don't git package files. That's weird, yo.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database and Log Files #
+##########################
+*.log
+*.sql
+*.sqlite
+
+# Operating System Files #
+##########################
+# The OS makes these things. Who cares?
+.DS_STORE
+.DS_STORE?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build System Stuff #
+######################
+# Node and Bower and all that
+node_modules/
+bower_components/
+.sass-cache
+*.css.map
+build/
+dist/
+npm-debug.log
